@@ -70,7 +70,6 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'sachin' # Your Azure Web App name
-          slot-name: 'evaua4fjf6fsgqdx' # Use the correct deployment slot
+          app-name: 'sachin'  # Your Web App Name
+          slot-name: 'Production'  # Use the default Production slot
 
-          
